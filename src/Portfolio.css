@@ -1,0 +1,104 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #1f2937, #000);
+  color: white;
+}
+
+.portfolio-container {
+  min-height: 100vh;
+}
+
+.portfolio-header {
+  background-color: #1f2937;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  color: #60a5fa;
+  margin: 0;
+}
+
+.portfolio-subtitle {
+  font-size: 1rem;
+  color: #d1d5db;
+  margin-top: 0.5rem;
+}
+
+.portfolio-section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #93c5fd;
+  border-bottom: 2px solid #60a5fa;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.project-card {
+  background-color: #1f2937;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.project-card:hover {
+  background-color: #374151;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: #6ee7b7;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: #d1d5db;
+  margin-top: 0.5rem;
+}
+
+.contact-card {
+  background-color: #1f2937;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  color: #d1d5db;
+}
+
+.contact-card a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+.portfolio-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #9ca3af;
+  padding: 2rem 0 1rem;
+  border-top: 1px solid #374151;
+  margin-top: 2rem;
+}
