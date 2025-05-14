@@ -25,7 +25,7 @@ export default function Portfolio() {
       <section className="portfolio-section">
         <h2 className="section-title">Contact</h2>
         <div className="contact-card">
-          <p>📧 Email: <a href="mailto:hithesh@email.com">hithesh2425@gmail.com</a></p>
+          <p>📧 Email: <a href="mailto:hithesh2425@gmail.com">hithesh2425@gmail.com</a></p>
           <p>💻 GitHub: <a href="https://github.com/hithesh">github.com/hithesh</a></p>
         </div>
       </section>
